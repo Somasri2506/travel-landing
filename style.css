@@ -18,7 +18,7 @@
     
 }
 .nav li a{
-   color: rgb(230, 120, 10);
+   color: rgb(222, 223, 158);
    list-style: none;
    display: flex;
    text-decoration: none;
@@ -27,9 +27,9 @@
    right: 20px;
 }
 .nav li a:hover, .nav li a.active{
-    color: brown;
+    color: rgb(240, 237, 237);
     border-radius:5px ;
-    background-color: black;
+    background-color: rgb(222, 178, 178);
 }
 .nav-home {
     position: relative;
@@ -285,7 +285,7 @@ p {
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgb(150, 206, 172);
+    background-color: rgb(237, 204, 226);
     border-radius: 10px;
     
 }
@@ -316,7 +316,7 @@ p {
 }
 .footer{
     color: rgb(188, 194, 199);
-    font-size: small;
+    font-size: 11px;
     margin-top: 35px;
 }
 
@@ -579,7 +579,7 @@ p {
     transform:scale(1.1) ;
 }
 #pack{
-    background-color: #dbccc4;
+    background-color: #ebcae3;
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
@@ -592,17 +592,6 @@ p {
     color:rgb(239, 239, 218);
 }
 
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-.index {
-  animation: fadeIn 1.5s ease-out forwards;
-  animation-duration: 2s;
-  animation-iteration-count: 1;
-}
 .gallery {
    display: grid;
    
