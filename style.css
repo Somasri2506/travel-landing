@@ -68,7 +68,7 @@
 .nav-home li a:hover, .nav li a.active{
     color: brown;
     border-radius:5px ;
-    background-color: black;
+    background-color: rgb(227, 219, 219);
 }
 .home{
     overflow-x: hidden;
